@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char name[5] = "Ab";
+    printf("%c",name[6]);
+    printf("%s",name);
+    
+    // char str[20] = "Hihihi";
+
+    // printf("size of str : %ld ",sizeof(str));
+    // printf(" %s  ",str);
+    // str[6]='k';
+    // str[4]='\0';
+    // printf(" %s  ",str);
+    // printf(" %c  ",str[4]);
+    // printf(" %c  ",str[5]);
+    // printf(" %c  ",str[6]);
+    // printf(" %c  ",str[7]);
+    // printf(" %c  ",str[8]);
+    // str[10]='k';
+    // printf(" %c  ",str[10]);
+    // printf(" %c ", str[15]);
+    // printf("size of str : %ld",sizeof(str));
+    return 0;
+}
